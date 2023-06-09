@@ -93,7 +93,7 @@ a {
 }
 
 .profile-pic {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 72%;
   border-radius: 5px;
 }
@@ -124,11 +124,47 @@ a {
 
 
 
+/*------------    Portfolio    ------------*/
+#portfolio {
+  /* border: 2px solid rgb(52, 36, 196); */
+  height: 700px;
+  width: 90%;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 1.9em;
+}
 
 
 
 
 
+
+
+
+
+
+/*-------   Projects   -------*/
+.project {
+  margin: 10px auto 0 auto;
+}
+
+.project-pic {
+  width: 100%;
+}
+
+.project-title {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 13px;
+}
+
+
+.project-text {
+  margin-top: 10px;
+}
 
 
 
