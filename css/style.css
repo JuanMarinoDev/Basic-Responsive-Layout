@@ -126,8 +126,8 @@ a {
 
 /*------------    Portfolio    ------------*/
 #portfolio {
-  /* border: 2px solid rgb(52, 36, 196); */
-  height: 700px;
+  /* background-color: orange; */
+  height: 1700px;
   width: 90%;
   margin: 40px auto 0 auto;
   text-align: center;
@@ -135,6 +135,10 @@ a {
 
 .portfolio-title {
   font-size: 1.9em;
+}
+
+.projects-container {
+  /* background: rgb(73, 65, 184); */
 }
 
 
@@ -166,12 +170,13 @@ a {
 .project-title {
   font-weight: 400;
   font-size: 1.5em;
-  margin-top: 13px;
+  margin-top: 15px;
 }
-
 
 .project-text {
   margin-top: 10px;
+  font-size: 0.91em;
+  line-height: 1.25;
 }
 
 
