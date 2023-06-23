@@ -30,17 +30,6 @@ a {
   text-decoration: none;
 }
 
-/*------------    Global    ------------*/
-
-
-
-
-
-
-
-
-
-
 
 /*------------    Navigation    ------------*/
 #main-nav {
@@ -68,36 +57,10 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------    Profile    ------------*/
 #profile {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .profile-pic {
@@ -117,18 +80,16 @@ a {
 
 
 
-
-
-
-/*------  Separators  ------*/
+/*--- Separators ---*/
 .separator {
   border-top: 1px solid rgb(101, 101, 129);
   width: 90%;
-  margin: 40px auto 0 auto;
+  margin: 0 auto;
 }
-
-
-
+/*--- Section Titles ---*/
+.section-title {
+  font-size: 1.9em;
+}
 
 
 
@@ -139,27 +100,15 @@ a {
 
 /*------------    Portfolio    ------------*/
 #portfolio {
-  /* background-color: orange; */
-  height: 2700px;
   width: 90%;
-  margin: 40px auto 0 auto;
+  margin: 40px auto;
   text-align: center;
 }
 
-.portfolio-title {
-  font-size: 1.9em;
-}
 
 .projects-container {
   /* background: rgb(73, 65, 184); */
 }
-
-
-
-
-
-
-
 
 
 
@@ -191,6 +140,49 @@ a {
   font-size: 0.91em;
   line-height: 1.25;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------    Bio    ------------*/
+
+#bio {
+  /* border: 2px solid rgb(21, 9, 88);
+  background-color: rgba(72, 54, 173, 0.521); */
+  height: 600px;
+
+  width: 90%;
+
+  text-align: center;
+  margin: 20px auto 0 auto;
+
+}
+
+#bio p {
+  margin: 22px auto 0 auto;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
