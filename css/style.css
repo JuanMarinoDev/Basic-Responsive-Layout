@@ -5,7 +5,8 @@
 /*------------    Defaults    ------------*/
 *,
 *:before,
-*:after {
+*:after,
+hr {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -87,6 +88,13 @@ a {
 
 
 
+
+
+
+
+
+
+
 /*------------    Profile    ------------*/
 #profile {
   text-align: center;
@@ -112,7 +120,12 @@ a {
 
 
 
-
+/*------  Separators  ------*/
+.separator {
+  border-top: 1px solid rgb(101, 101, 129);
+  width: 90%;
+  margin: 40px auto 0 auto;
+}
 
 
 
