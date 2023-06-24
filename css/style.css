@@ -175,10 +175,7 @@ a {
   width: 90%;
   text-align: center;
   margin: 40px auto 0 auto;
-
-  border: 2px solid purple;
-  height: 500px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .contact-intro {
@@ -211,6 +208,7 @@ a {
   margin: 30px auto 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-phone img {
@@ -226,3 +224,26 @@ a {
   padding-left: 5px;
 }
 
+
+
+/*--- Email ---*/
+.contact-email {
+  width: 80%;
+  margin: 15px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-email img {
+  width: 15px;
+  height: 15px;
+}
+
+.contact-email p {
+  padding-left: 5px;
+}
+
+.contact-email a {
+  padding-left: 5px;
+}
