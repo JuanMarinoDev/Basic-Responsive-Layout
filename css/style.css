@@ -154,21 +154,14 @@ a {
 
 
 /*------------    Bio    ------------*/
-
 #bio {
-  /* border: 2px solid rgb(21, 9, 88);
-  background-color: rgba(72, 54, 173, 0.521); */
-  height: 600px;
-
   width: 90%;
-
   text-align: center;
-  margin: 20px auto 0 auto;
-
+  margin: 40px auto 0 auto;
 }
 
 #bio p {
-  margin: 22px auto 0 auto;
+  margin-top: 22px;
   line-height: 1.35;
   font-style: italic;
 }
@@ -177,12 +170,22 @@ a {
 
 
 
+/*------------    Contact    ------------*/
+#contact {
+  width: 90%;
+  text-align: center;
+  margin: 40px auto 0 auto;
 
+  border: 2px solid purple;
+  background-color: orange;
+  height: 300px;
+  margin-bottom: 200px;
+}
 
-
-
-
-
+#contact p {
+  margin-top: 22px;
+  line-height: 1.35;
+}
 
 
 
