@@ -104,6 +104,8 @@ a {
   background-color: rgba(168, 168, 168, 0.045);
   border-radius: 5px;
   padding: 10px 10px 20px 10px;
+  width: 272px;
+  height: 300px;
 }
 
 .project-pic {
@@ -193,3 +195,19 @@ footer h4 {
   font-size: 1.2em;
   font-weight: 400;
 }
+
+
+
+
+
+
+
+
+/*------------    Media Queries    ------------*/
+
+
+
+
+
+
+
