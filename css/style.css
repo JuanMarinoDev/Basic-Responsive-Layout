@@ -65,12 +65,14 @@ a {
   margin-top: 40px;
   width: 72%;
   border-radius: 5px;
+  max-width: 290px;
 }
 
 #profile p {
   width: 90%;
   margin: 15px auto 0 auto;
   line-height: 1.35;
+  max-width: 380px;
 }
 
 
@@ -203,11 +205,179 @@ footer h4 {
 
 
 
-/*------------    Media Queries    ------------*/
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________________________________________________________
+---------------------    Media Queries    ---------------------
+--------------------------------------------------------------- */
+/*__________________________________
+------------  MOBILE L  ------------
+------------------------------------*/
+@media all and (min-width: 425px) {
+  /*----  Portfolio_Projects ----*/
+  .project {
+    margin-top: 30px;
+    padding: 12px 12px 20px 12px;
+    width: 300px;
+    height: 340px;
+  }
+  .project-title {
+    margin-top: 25px;
+  }
+  .project-text {
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________
+-------------  NEXT BREAK POINT  -------------
+-------------------------------------- */
+@media all and (min-width: 1000px) {
+  /*----  Portfolio  ----*/
+  #portfolio {
+    /* width: 90%; */
+    /* margin: 40px auto; */
+    /* text-align: center; */
+  }
+  .projects-container {
+    /* This will be used for FlexBox*/
+  }
+  /*-- Projects --*/
+  .project {
+    /* margin: 30px auto 0 auto; */
+    /* border: 1px solid rgba(168, 168, 168, 0.418); */
+    /* background-color: rgba(168, 168, 168, 0.045); */
+    /* border-radius: 5px; */
+    /* padding: 12px 12px 20px 12px; */
+    /* width: 300px; */
+    /* height: 340px; */
+  }
+  .project-pic {
+    /* width: 100%; */
+    /* border-radius: 4px; */
+  }
+  .project-title {
+    /* font-weight: 400; */
+    /* font-size: 1.5em; */
+    /* margin-top: 25px; */
+  }
+  .project-text {
+    /* margin-top: 10px; */
+    /* margin-top: 15px; */
+    /* font-size: 0.91em; */
+    /* line-height: 1.25; */
+  }
+}
 
