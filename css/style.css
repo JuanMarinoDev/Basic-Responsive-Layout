@@ -469,15 +469,6 @@ footer h4 {
     /* border: 1px solid rgb(138, 138, 163); */
   }
 
-
-
-
-
-
-
-
-
-
   /*--- Section Titles ---*/
   .section-title {
     /* font-size: 2em; */
@@ -540,6 +531,16 @@ footer h4 {
 
 
 
+
+
+
+
+
+
+
+
+
+
   /*----  Bio & Contact  ----*/
   #bio p {
     /* margin-top: 22px;
@@ -548,29 +549,38 @@ footer h4 {
     /* font-size: 1.01em; */
     font-size: 1.03em;
     line-height: 1.4;
+    margin: 22px auto 0 auto;
+    max-width: 785px;
   }
 
 
+  #contact {
+    /* border: 1px solid black; */
+  }
 
-
-/***********************************************************------ MARKER*/
   .contact-flex {
-    border: 1px solid tomato;
-    margin-top: 22px;
-    display: flex;
+    /* border: 1px solid tomato; */
+    /*NOT BEING USED*/
   }
 
   .contact-intro {
     /* margin-top: 22px;
     line-height: 1.35; */
-    margin: 0;
-    font-size: 1.03em;
-    line-height: 1.4;
+    margin: 22px auto 0 auto;
+    width: 510px;
+    /* border: 1px solid red; */
   }
 
+
+
   .phone-email-wrapper {
-    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+    width: 500px;
   }
+
+
   /*-----  Phone & Email  -----*/
   .contact-phone,
   .contact-email {
@@ -578,7 +588,8 @@ footer h4 {
     display: flex;
     justify-content: center;
     align-items: center; */
-    background-color: orange;
+    width: fit-content;
+    margin: 0;
   }
 
   .contact-phone {
@@ -587,13 +598,6 @@ footer h4 {
   .contact-email {
     /* margin: 15px auto 0 auto; */
   }
-
-
-
-
-
-
-
 
   /*- Icons -*/
   .contact-phone img,
@@ -644,7 +648,7 @@ footer h4 {
 
 
   
-
+/***********************************************************------ MARKER*/
   /*----  Footer Menu  ----*/
   footer {
     /* margin-top: 50px;
@@ -658,6 +662,18 @@ footer h4 {
     font-size: 1.3em;
     font-weight: 400; */
   }
+
+
+
+
+
+
+
+
+
+
+
+  
 }
 
 
