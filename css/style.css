@@ -53,10 +53,10 @@ a {
   padding: 5px 0;
 }
 
-#main-nav a {
+#main-nav a,
+.nav-section_2 a {
   color: #353535;
 }
-
 
 /*------------    Profile    ------------*/
 #profile {
@@ -193,10 +193,16 @@ footer {
   justify-content: space-between;
 }
 
-footer h4 {
+footer h4,
+.nav-section_2 {
   color: #353535;
   font-size: 1.2em;
   font-weight: 400;
+}
+
+#nav-sections_2,
+#nav-sections_2 * {
+  display: none;
 }
 
 
@@ -368,77 +374,12 @@ footer h4 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*__________________________________
 ------------   TABLET   ------------
 ------------------------------------*/
 @media all and (min-width: 768px) {
-  body {
-    /* background-color: orange; */
-  }
-  /*----  Navigation ----*/
-  #main-nav {
-    /* text-align: center;
-    background: #7ea2e6;
-    box-shadow: 0 5px 15px #A7BFE8;
-    padding-bottom: 10px; */
-  }
-  .name {
-    /* padding: 20px 0;
-    color: #353535; */
-  }
-  #nav-sections {
-    /* padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 83%;
-    max-width: 500px;
-    margin: auto; */
-  }
-  .nav-section {
-    /* font-size: 1.45em;
-    font-weight: 400;
-    padding: 5px 10px; */
-  }
-  #main-nav a {
-    /* color: #353535; */
-  }
-
   /*----  Profile ----*/
   #profile {
-    /* text-align: center;
-    margin-bottom: 40px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -447,132 +388,37 @@ footer h4 {
     margin: 40px auto;
   }
   .profile-pic {
-    /* margin-top: 40px;
-    width: 72%;
-    border-radius: 5px;
-    max-width: 380px; */
     width: 48%;
     margin: 0;
-    /* border: 2px solid rgb(44, 46, 139); */
   }
   #profile p {
-    /* width: 90%; */
-    /* margin: 15px auto 0 auto; */
-    /* line-height: 1.35; */
-    /* max-width: 510px; */
-    /* font-size: 1.04em; */
-    font-size: 1.2em;
-    line-height: 1.4;
     width: 48%;
     max-width: 410px;
     margin: 0;
-    /* border: 1px solid rgb(138, 138, 163); */
-  }
-
-  /*--- Section Titles ---*/
-  .section-title {
-    /* font-size: 2em; */
+    font-size: 1.2em;
+    line-height: 1.4;
   }
 
   /*----  Portfolio  ----*/
-  #portfolio {
-    /* width: 90%; */
-    /* margin: 40px auto; */
-    /* text-align: center; */
-    /* border: 1px solid rgb(68, 15, 15); */
-  }
-  .projects-container {
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 650px;
-    margin: auto; */
-  }
   /*-- Projects --*/
-  .project {
-    /* margin: 30px 0 0 0; */
-    /* border: 1px solid rgba(168, 168, 168, 0.418); */
-    /* background-color: rgba(168, 168, 168, 0.045); */
-    /* border-radius: 5px; */
-    /* padding: 12px 12px 20px 12px; */
-    /* width: 300px; */
-    /* height: 340px; */
-  }
-  .project-pic {
-    /* width: 100%; */
-    /* border-radius: 4px; */
-  }
   .project-title {
-    /* font-weight: 400; */
-    /* font-size: 1.6em; */
-    /* margin-top: 25px; */
     font-size: 1.63em;
   }
   .project-text {
-    /* margin-top: 10px; */
-    /* margin-top: 15px; */
-    /* font-size: 1.01em; */
-    /* line-height: 1.3; */
     font-size: 1.03em;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   /*----  Bio & Contact  ----*/
   #bio p {
-    /* margin-top: 22px;
-    line-height: 1.35;
-    font-style: italic; */
-    /* font-size: 1.01em; */
+    margin: 22px auto 0 auto;
     font-size: 1.03em;
     line-height: 1.4;
-    margin: 22px auto 0 auto;
     max-width: 785px;
   }
-
-
-  #contact {
-    /* border: 1px solid black; */
-  }
-
-  .contact-flex {
-    /* border: 1px solid tomato; */
-    /*NOT BEING USED*/
-  }
-
   .contact-intro {
-    /* margin-top: 22px;
-    line-height: 1.35; */
     margin: 22px auto 0 auto;
     width: 510px;
-    /* border: 1px solid red; */
   }
-
-
-
   .phone-email-wrapper {
     display: flex;
     justify-content: space-between;
@@ -580,100 +426,38 @@ footer h4 {
     width: 500px;
   }
 
-
   /*-----  Phone & Email  -----*/
   .contact-phone,
   .contact-email {
-    /* width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     width: fit-content;
     margin: 0;
   }
-
-  .contact-phone {
-    /* margin: 30px auto 0 auto; */
-  }
-  .contact-email {
-    /* margin: 15px auto 0 auto; */
-  }
-
-  /*- Icons -*/
-  .contact-phone img,
-  .contact-email img {
-    /* width: 15px;
-    height: 15px; */
-  }
-
   .contact-phone p,
   .contact-email p,
   .contact-phone a,
   .contact-email a {
-    /* padding-left: 5px; */
-    /* font-size: 1.01em; */
     font-size: 1.03em;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-/***********************************************************------ MARKER*/
   /*----  Footer Menu  ----*/
-  footer {
-    /* margin-top: 50px;
-    padding: 30px 4%;
-    border-top: 1px solid rgba(168, 168, 168, 0.418);
+  footer h4,
+  .nav-section_2 {
+    font-size: 1.4em;
+  }
+  .back-to-top,
+  .back-to-top * {
+    display: none;
+  }
+  /*Nav container 2*/
+  #nav-sections_2 {
     display: flex;
-    justify-content: space-between; */
+    justify-content: space-between;
+    width: 50%;
+    max-width: 388px;
   }
-  footer h4 {
-    /* color: #353535;
-    font-size: 1.3em;
-    font-weight: 400; */
+  #nav-sections_2 * {
+    display: block;
   }
-
-
-
-
-
-
-
-
-
-
-
-  
 }
 
 
@@ -702,31 +486,7 @@ footer h4 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***********************************************************------ MARKER*/
 /* ___________________________________________
 -------------  NEXT BREAK POINT  -------------
 ---------------------------------------------- */
@@ -765,22 +525,27 @@ footer h4 {
   /*----  Profile ----*/
   #profile {
     /* text-align: center;
-    margin-bottom: 40px; */
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 860px; */
   }
   .profile-pic {
-    /* margin-top: 40px;
-    width: 72%;
+    /* margin: 0;
+    width: 48%;
     border-radius: 5px;
     max-width: 380px; */
   }
-
   #profile p {
-    /* width: 90%; */
-    /* margin: 15px auto 0 auto; */
-    /* line-height: 1.35; */
-    /* max-width: 510px; */
-    /* font-size: 1.04em; */
+    /* width: 48%;
+    margin: 0;
+    line-height: 1.4;
+    max-width: 410px;
+    font-size: 1.2em; */
   }
+
   /*--- Section Titles ---*/
   .section-title {
     /* font-size: 2em; */
@@ -816,31 +581,74 @@ footer h4 {
   }
   .project-title {
     /* font-weight: 400; */
-    /* font-size: 1.6em; */
+    /* font-size: 1.63em; */
     /* margin-top: 25px; */
   }
   .project-text {
     /* margin-top: 10px; */
     /* margin-top: 15px; */
-    /* font-size: 1.01em; */
+    /* font-size: 1.03em; */
     /* line-height: 1.3; */
   }
-
   /*----  Bio & Contact  ----*/
   #bio p {
-    /* margin-top: 22px;
+    /* margin: 22px auto 0 auto;
+    line-height: 1.4;
+    font-style: italic;
+    font-size: 1.03em;
+    max-width: 785px; */
+  }
+  #contact {
+    /* border: 1px solid black; */
+  }
+  .contact-flex {
+    /* border: 1px solid tomato; */
+    /*NOT BEING USED*/
+  }
+  .contact-intro {
+    /* margin: 22px auto 0 auto;
     line-height: 1.35;
-    font-style: italic; */
-    /* font-size: 1.01em; */
+    width: 510px; */
+  }
+  .phone-email-wrapper {
+    /* display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+    width: 500px; */
+  }
+  /*-----  Phone & Email  -----*/
+  .contact-phone,
+  .contact-email {
+    /* width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: fit-content;
+    margin: 0; */
+  }
+  .contact-phone {
+    /* margin: 30px auto 0 auto; */
+    /* margin: 0; */
+  }
+  .contact-email {
+    /* margin: 15px auto 0 auto; */
+    /* margin: 0; */
+  }
+
+
+  /*- Icons -*/
+  .contact-phone img,
+  .contact-email img {
+    /* width: 15px;
+    height: 15px; */
   }
   .contact-phone p,
   .contact-email p,
   .contact-phone a,
   .contact-email a {
     /* padding-left: 5px; */
-    /* font-size: 1.01em; */
+    /* font-size: 1.03em; */
   }
-
   /*----  Footer Menu  ----*/
   footer {
     /* margin-top: 50px;
@@ -849,9 +657,29 @@ footer h4 {
     display: flex;
     justify-content: space-between; */
   }
-  footer h4 {
+  
+  footer h4,
+  .nav-section_2 {
     /* color: #353535;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 400; */
+  }
+
+  .back-to-top,
+  .back-to-top * {
+    /* display: none; */
+  }
+
+  #nav-sections_2,
+  #nav-sections_2 * {
+    /* display: block; */
+  }
+
+  /*Nav container*/
+  #nav-sections_2 {
+    /* display: flex;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 388px; */
   }
 }
