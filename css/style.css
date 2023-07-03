@@ -463,66 +463,12 @@ footer h4,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*____________________________________
 ------------   TABLET L   ------------
 --------------------------------------*/
 @media all and (min-width: 888px) {
-  body {
-    /* background-color: orange; */
-  }
   /*----  Navigation ----*/
   #main-nav {
-    /* text-align: center;
-    background: #7ea2e6;
-    box-shadow: 0 5px 15px #A7BFE8;
-    padding-bottom: 10px; */
     height: 110px;
     padding: 0;
     padding-left: 2.5%;
@@ -532,85 +478,31 @@ footer h4,
     align-items: center;
   }
   .name {
-    /* padding: 20px 0;
-    color: #353535; */
     padding: 0;
-    font-size: 2.05em; /*BEFORE: 2em*/
+    font-size: 2.05em;
   }
   #nav-sections {
-    /* padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 83%;
-    max-width: 500px;
-    margin: auto; */
     margin: 0;
     width: 400px;
   }  
   .nav-section {
-    /* font-size: 1.45em;
-    font-weight: 400;
-    padding: 5px 10px; */
     padding: 0;
     font-size: 1.55em;
-  }
-  #main-nav a {
-    /* color: #353535; */
-  }
-
-  /*----  Profile ----*/
-  #profile {
-    /* text-align: center;
-    margin: 40px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 860px; */
-  }
-  .profile-pic {
-    /* margin: 0;
-    width: 48%;
-    border-radius: 5px;
-    max-width: 380px; */
-  }
-  #profile p {
-    /* width: 48%;
-    margin: 0;
-    line-height: 1.4;
-    max-width: 410px;
-    font-size: 1.2em; */
   }
   /*--- Section Titles ---*/
   .section-title {
     font-size: 2.05em
   }
-
-
-
-
-
-
   /*--- Separators ---*/
   .separator {
     width: 65%;
     max-width: 730px;
   }
-
-
-
-
-
-
   /*----  Portfolio  ----*/
   .projects-container {
     margin-top: 14px;
     max-width: 800px;
   }
-
-
-
-
   /*-- Projects --*/
   .project {
     padding: 10px;
@@ -618,48 +510,44 @@ footer h4,
     width: 250px;
     height: 290px;
   }
-
-
-  
   .project-title {
     font-size: 1.46em;
     margin-top: 15px;
   }
-
-
-
   .project-text {
     margin-top: 10px;
     font-size: 0.93em;
   }
-
-
   /*----  Footer Menu  ----*/
   footer h4,
   .nav-section_2 {
     font-size: 1.5em;
   }
-
-
-
-
-
-
-
-
-
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*****************************************************************************------ MARKER*/
-
-
-
-
-
-
-
 /*____________________________________________
 ------------   NEXT BREAK POINT   ------------
 ----------------------------------------------*/
@@ -861,24 +749,3 @@ footer h4,
     max-width: 388px; */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
