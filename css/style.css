@@ -548,10 +548,10 @@ footer h4,
 
 
 /*****************************************************************************------ MARKER*/
-/*____________________________________________
-------------   NEXT BREAK POINT   ------------
-----------------------------------------------*/
-@media all and (min-width: 1000px) {
+/*_________________________________________
+----------------   LAPTOP   ---------------
+-------------------------------------------*/
+@media all and (min-width: 1024px) {
   body {
     /* background-color: orange; */
   }
@@ -589,7 +589,7 @@ footer h4,
   #main-nav a {
     /* color: #353535; */
   }
-
+  
   /*----  Profile ----*/
   #profile {
     /* text-align: center;
@@ -599,12 +599,14 @@ footer h4,
     align-items: center;
     width: 90%;
     max-width: 860px; */
+    max-width: 1100px;
   }
   .profile-pic {
     /* margin: 0;
     width: 48%;
     border-radius: 5px;
     max-width: 380px; */
+    max-width: 440px;
   }
   #profile p {
     /* width: 48%;
@@ -612,7 +614,15 @@ footer h4,
     line-height: 1.4;
     max-width: 410px;
     font-size: 1.2em; */
+    max-width: 500px;
+    font-size: 1.3em;
   }
+
+
+
+
+
+  
   /*--- Section Titles ---*/
   .section-title {
     /* font-size: 2.05em */
@@ -624,6 +634,17 @@ footer h4,
     margin: 0 auto;
     max-width: 730px; */
   }
+
+
+
+
+
+
+
+
+
+
+  
   /*----  Portfolio  ----*/
   #portfolio {
     /* width: 90%; */
@@ -638,6 +659,8 @@ footer h4,
     max-width: 800px;
     margin: auto;
     margin-top: 14px;*/
+    margin-top: 0;
+    max-width: 950px;
   }
 
   /*-- Projects --*/
@@ -649,6 +672,10 @@ footer h4,
     /* padding: 12px 12px 20px 12px; */
     /* width: 250px; */
     /* height: 290px; */
+    margin: 30px 0 0 0;
+    width: 290px;
+    height: 340px;
+    border-width: 2px;
   }
   .project-pic {
     /* width: 100%; */
@@ -658,11 +685,15 @@ footer h4,
     /* font-weight: 400; */
     /* font-size: 1.46em; */
     /* margin-top: 15px; */
+    margin-top: 20px;
+    font-size: 1.56em;
   }
   .project-text {
     /* line-height: 1.3; */
     /* margin-top: 10px;
     font-size: 0.93em; */
+    margin-top: 15px;
+    font-size: 1.02em;
   }
 
   /*----  Bio & Contact  ----*/
@@ -672,6 +703,8 @@ footer h4,
     font-style: italic;
     font-size: 1.03em;
     max-width: 785px; */
+    max-width: 900px;
+    font-size: 1.13em;
   }
   #contact {
     /* border: 1px solid black; */
@@ -680,12 +713,16 @@ footer h4,
     /* margin: 22px auto 0 auto;
     line-height: 1.35;
     width: 510px; */
+    font-size: 1.13em;
+    width: 85%;
   }
   .phone-email-wrapper {
     /* display: flex;
     justify-content: space-between;
     margin: 30px auto 0 auto;
     width: 500px; */
+    margin-top: 40px;
+    width: 600px;
   }
   /*-----  Phone & Email  -----*/
   .contact-phone,
@@ -717,6 +754,7 @@ footer h4,
   .contact-email a {
     /* padding-left: 5px; */
     /* font-size: 1.03em; */
+    font-size: 1.13em;
   }
 
   /*----  Footer Menu  ----*/
