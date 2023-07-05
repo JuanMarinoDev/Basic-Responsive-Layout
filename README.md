@@ -1,6 +1,6 @@
 # https://basic-responsive-layout.netlify.app/
 
-## Basic Responsive Layout
+### Basic Responsive Layout
 
 This project demonstrates a clean and intuitive design, emphasizing a minimalist approach for enhanced user experience.
 
